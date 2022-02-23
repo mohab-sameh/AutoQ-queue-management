@@ -1,7 +1,5 @@
-from matplotlib.pyplot import title
 import streamlit as st
 import pandas as pd
-from gsheetsdb import connect
 import numpy as np
 
 st.title("AutoQ ⏱️")
