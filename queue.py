@@ -24,5 +24,6 @@ while True:
     if os.stat("assets/queue/queue.csv").st_size != 0:
         tmp_df = pd.read_csv('assets/queue/queue.csv')
         if df.equals(tmp_df) is not True:
+            st.audio("assets/audio/notification.mp3")
             st.experimental_rerun()
             break
