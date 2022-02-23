@@ -3,6 +3,8 @@ import pandas as pd
 import time
 import os
 
+import admin
+import register
 #st.set_page_config(layout="wide")
 
 def intro():
