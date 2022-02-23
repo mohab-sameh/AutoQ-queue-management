@@ -5,6 +5,8 @@ import csv
 #st.set_page_config(layout="wide")
 
 #Intro Goes Here
+st.title("AutoQ ⏱️")
+st.subheader("A Queue Management App by Mohab Sameh 💻 ☕")
 st.button("Refresh Responses")
 
 
