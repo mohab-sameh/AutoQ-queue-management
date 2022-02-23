@@ -11,7 +11,7 @@ def intro():
     col1, col2 = st.columns(2)
     new_title = '<p style="font-size: 22px;">If you have any problems, please scan the following QR Code to take a turn in the queue, then wait for your name to show up on the screen. You will be admitted shortly.</p>'
     col1.markdown(new_title, unsafe_allow_html=True)
-    col2.image("assets/images/QR.jpeg")
+    col2.image("assets/images/QR.png")
 intro()
 
 mkd = ''
