@@ -24,8 +24,10 @@ st.table(rslt_df)
 while True:
     time.sleep(5)
     if os.stat("assets/queue/queue.csv").st_size != 0:
-        tmp_df = pd.read_csv('assets/queue/queue.csv')
+        tmp_df = pd.read_csv('assets/queue/queue.csv', names=["ID", "Name", "Email", "Problem", "Admitted"])
         if df.equals(tmp_df) is not True:
-            st.audio("assets/audio/notification.mp3")
+            #st.audio("assets/audio/notification.mp3")
+            st.balloons()
+            time.sleep(5)
             st.experimental_rerun()
             break
