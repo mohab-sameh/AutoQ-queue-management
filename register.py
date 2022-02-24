@@ -7,6 +7,9 @@ st.subheader("A Queue Management App by Mohab Sameh 💻 ☕")
 
 st.subheader("Please register your data here:")
 
+st.button("Please click here to see the current Queue.")
+
+
 ID = st.text_input('ID')
 name = st.text_input('Full Name')
 email = st.text_input('Email')
