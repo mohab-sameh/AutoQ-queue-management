@@ -3,6 +3,15 @@ import pandas as pd
 import time
 import os
 
+
+hide_streamlit_style = """
+            <style>
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+
 #st.set_page_config(layout="wide")
 
 def intro():
