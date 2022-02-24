@@ -22,7 +22,7 @@ else:
 
 
 processes = []
-process = subprocess.Popen(['streamlit', 'run', 'register.py', '--server.port', '8080'])
+process = subprocess.Popen(['streamlit', 'run', 'register.py', '--server.port', '443'])
 processes.append(process)
 
 time.sleep(5)
